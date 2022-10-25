@@ -61,12 +61,20 @@ console.log(dart);
 ////////////////////////////////
 // Yell at the Ninja Turtles
 ////////////////////////////////
-
+let turtleNames=['Donatello', 'Lenardo', 'Rapahel', 'Michaelangelo'];
+const logNames= () =>{
+    for (const names of turtleNames) {
+        console.log(names.toUpperCase());
+    }
+}
+logNames();
 
 ////////////////////////////////
 // Methods, Revisited
 ////////////////////////////////
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
 
+console.log(favMovies.indexOf('Titanic'));
 
 ////////////////////////////////
 // Where is Waldo
